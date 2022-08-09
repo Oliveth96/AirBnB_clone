@@ -14,7 +14,7 @@ from models.place import Place
 from models.review import Review
 
 
-class HbnbCommand(cmd.Cmd):
+class HBNBCommand(cmd.Cmd):
     """
     Command Line Interpreter Class
     This module contains one class: `HBNBCommand()`
@@ -177,4 +177,4 @@ class HbnbCommand(cmd.Cmd):
 
 
 if __name__ == "__main__":
-    HbnbCommand().cmdloop()
+    HBNBCommand().cmdloop()
