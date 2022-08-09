@@ -7,10 +7,10 @@ from datetime import datetime
 import console
 import json
 
-HbnbCommand = console.HbnbCommand
+HBNBCommand = console.HBNBCommand
 
 
-class TestHbnbCommandDocs(unittest.TestCase):
+class TestHBNBCommandDocs(unittest.TestCase):
     """
     Class for testing BaseModel docs
     """
@@ -30,9 +30,10 @@ class TestHbnbCommandDocs(unittest.TestCase):
 
     def test_doc_class(self):
         """... documentation for the class"""
-        expected = 'Command inerpreter class'
-        actual = HbnbCommand.__doc__
+        expected = 'Command interpreter class'
+        actual = HBNBCommand.__doc__
         self.assertEqual(expected, actual)
+
 
 if __name__ == '__main__':
     unittest.main
