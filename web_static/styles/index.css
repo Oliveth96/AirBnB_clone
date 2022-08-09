@@ -1,0 +1,59 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+  /* BASE STYLES
+  /*******************************************/
+
+body {
+  font-family: 'Rubik Moonrocks', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  padding: 0px
+}
+
+
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+header {
+  background-color: #FF0000;
+  height: 70px;
+  width: 100%
+}
+
+footer {
+  background-color:  #00FF00;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+}
+
+div {
+  display: table-cell;
+  vertical-align: middle
+}
+
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
