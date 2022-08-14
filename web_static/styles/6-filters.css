@@ -1,52 +1,4 @@
-html{
-    position: relative;
-    min-height: 100%;
-}
-
-body{
-    margin: 0px;
-    padding: 0px;
-    color:#484848;
-    font-size: 14px;
-    font-family: 'Rubik Moonrocks', cursive;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-header {
-    background-color: #FFF;
-    height: 80px;
-    width: 100%;
-    border-bottom: solid 1px #CCC;
-}
-
-.icon{
-    display: flex;
-    width: 180px;
-    height: 78px;
-    background: #FFF url("../images/logo.png") no-repeat center center;
-    padding: 6px 0px 0px 20px;
-    align-items: center;   
-}
-
-footer{
-    background-color: #FFF;
-    height: 60px;
-    width:100%;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    display: table;
-    border-top: solid 1px #CCCCCC;
-    overflow: hidden;   
-}
-
-.Text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.filter {
+.filters {
     display: flex;
     background-color: #FFF;
     height: 70px;
@@ -56,7 +8,7 @@ footer{
     align-items: center;
 }
 
-.filter button {
+.filters button {
     margin-right: 30px;
     font-size: 18px;
     background-color: #FF5A5F;
@@ -68,17 +20,17 @@ footer{
     margin-left: auto;
 }
 
-.filter button:hover {
+.filters button:hover {
     opacity: .9;
 }
 
-.filter > .locations, .filter > .amenities {
+.filters > .locations, .filters > .amenities {
     height: 100%;
     width: 25%;
 }
 
-.filter div:first-child {
-    border-right: solid #DDD 1px;
+.filters div:first-child {
+    border-right: solid #DDDDDD 1px;
 }
 
 h3 {
@@ -106,7 +58,7 @@ h4 {
     padding: 30px 0px;
     width: 100%;
     background-color: #FAFAFA;
-    border: solid #DDD 1px;
+    border: solid #DDDDDD 1px;
     border-radius: 4px;
     list-style-type: none;
     z-index: 1;
